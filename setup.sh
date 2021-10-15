@@ -13,6 +13,7 @@ conda activate "$env_name"
 
 # install torch
 read -rp "Enter torch version (recommended 1.9.0): " torch_version
+echo "Not sure which CUDA version you have? Check out https://stackoverflow.com/a/68499241/1908499"
 read -rp "Enter cuda version (e.g. 10.1 or none to avoid installing cuda support): " cuda_version
 if [ "$cuda_version" == "none" ]; then
     conda install -y pytorch=$torch_version torchvision cpuonly -c pytorch
@@ -22,3 +23,8 @@ fi
 
 # install python requirements
 pip install -r requirements.txt
+pip install classy-core
+classy --install-autocomplete
+
+echo "Classy successfully installed. Don't forget to activate your environment!"
+echo "$> conda activate ${env_name}"
