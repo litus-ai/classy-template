@@ -22,7 +22,7 @@ And... **You're all set**! Yes, it's that easy.
 Well, there are a few (basic) things that you might be interested in doing:
 
 - Creating a custom model [(link)](https://sunglasses-ai.github.io/classy/docs/getting-started/overriding-code/custom-model)
-- Creating a custom dataset [(link) - TODO](https://sunglasses-ai.github.io/classy/docs/getting-started/overriding-code/custom-dataset/)
+- Creating a custom dataset [(link)](https://sunglasses-ai.github.io/classy/docs/advanced/custom-dataset/)
 - Creating a custom data reader [(link)](https://sunglasses-ai.github.io/classy/docs/getting-started/overriding-code/custom-data-form/)
 
 #### :scroll: Examples
