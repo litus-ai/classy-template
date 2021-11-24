@@ -23,7 +23,6 @@ fi
 
 # install python requirements
 pip install -r requirements.txt
-pip install classy-core
 classy --install-autocomplete
 
 echo "Classy successfully installed. Don't forget to activate your environment!"
