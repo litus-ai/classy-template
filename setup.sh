@@ -22,20 +22,8 @@ else
 fi
 
 # install python requirements
-pip install -e .
+pip install -r requirements.txt
 classy --install-autocomplete
 
 echo "Classy successfully installed. Don't forget to activate your environment!"
 echo "$> conda activate ${env_name}"
-
-# install contributor dependencies
-read -p "Install contributor dependencies? [y/N] "
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-  # install black
-  pip install black
-  # install and hook pre-commit
-  pip install pre-commit
-  pre-commit install
-  pre-commit run --all-files
-fi
