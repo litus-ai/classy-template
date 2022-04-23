@@ -5,7 +5,7 @@ Welcome! If you're landing here, it's probably because you want to try out our l
 As you might have read from our [documentation](https://sunglasses-ai.github.io/classy/docs/intro), `classy` comes with a bunch of ready-to-use tools and tasks.
 But, for more particular settings (as yours is, probably!), we have developed this template that we have specifically built to seamlessly integrate with `classy`.
 
-In case you didn't, check out [`classy`'s preconfigured tasks](https://sunglasses-ai.github.io/classy/docs/getting-started/no-code/tasks/) to make sure it doesn't cover your use case already! We have *a lot* of pre-trained models and tasks :fire: 
+In case you didn't, check out [`classy`'s preconfigured tasks](https://sunglasses-ai.github.io/classy/docs/reference-manual/tasks-and-formats/) to make sure it doesn't cover your use case already! We cover quite a few tasks, including the most common ones! :fire: 
 
 If we did not match your needs (...sorry!), click on [use this template](https://github.com/sunglasses-ai/classy-template/generate) at the top of this page to start.
 
@@ -27,7 +27,7 @@ Well, there are a few (basic) things that you might be interested in doing:
 
 #### :scroll: Examples
 
-Additionally, we remind you that we have an ever-growing [repository of examples](https://github.com/sunglasses-ai/classy-examples) available that touch most parts of `classy`'s structure.
+Additionally, that we have an ever-growing [repository of examples](https://github.com/sunglasses-ai/classy-examples) available that touch most parts of `classy`'s structure.
 
 ## :robot: How does `classy` integrate with the template?
 
